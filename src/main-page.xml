@@ -1,0 +1,7 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" class="page">
+    <GridLayout rows="auto *" >
+        <Button text="Start NG APP" tap="onTap" class="m-20 btn btn-primary btn-active"/>
+        
+        <GridLayout id="container" row="1"></GridLayout>
+    </GridLayout>
+</Page>
